@@ -1,0 +1,190 @@
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.main {
+    background-color: #181818;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    background-color: #202020;
+}
+
+.header-with-logo {
+    width: 280px;
+    display: flex;
+    align-items: center;
+}
+
+.header__menu {
+    padding-left: 24px;
+    padding-right: 24px;
+    cursor: pointer;
+}
+
+.header__menu-icon {
+    font-size: 24px;
+    color: #ffff;
+    line-height: 40px;
+}
+
+.header__logo {
+    width: 130px;
+}
+
+.header__logo-link {
+    display: block;
+    color: transparent;
+    text-decoration: none;
+    line-height: 0;    
+}
+
+.header__logo-img {
+    width: 90px;
+    fill: #ffff;
+}
+
+
+/* HEADER SEACRCH */
+.header__search {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.header__search-input-wrap {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+}
+
+.header__search-input {
+    width: 100%;
+    height: 100%;
+    color: #ffff;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    background-color: #121212;
+    padding: 0 8px;
+    border-radius: 2px;
+}
+
+.header__search-keyboard {
+    font-size: 20px;
+    color: #a0a0a0;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.header__search-keyboard:hover i {
+    color: #dddddd;
+}
+
+.header__search-btn {
+    width: 64px;
+    height: 40px;
+    background-color: #313131;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.header__search-btn-icon {
+    color: #dfdfdf;
+
+}
+.header__voice-search-btn {
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 50%;
+    background-color: #181818;
+    cursor: pointer;
+}
+
+.header__voice-search-btn-icon {
+    color: #ffff;
+}
+
+
+/* HEADER WITH ACCOUNT */
+.header-with-user {
+    min-width: 230px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.header__video,
+.header__notify {
+    margin-right: 16px;
+    padding: 8px;
+    color: #e3e3e3;
+    display: none;
+}
+
+.header__apps,
+.header__more {
+    margin-right: 16px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__apps-icon,
+.header__more-icon {
+    font-size: 20px;
+    color: #e3e3e3;
+}
+
+.header__log-in-btn {
+    min-width: 140px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    outline: none;
+    color: #3ea4fc;
+    border: 1.2px solid #3684c7;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 16px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.header__log-in-icon {
+    font-size: 24px;
+    color: #3684c7;
+    margin-right: 8px;
+}
+
+.header__user {
+    display: none;
+    padding: 8px;
+    margin-right: 22px;
+}
+
+.header__user-icon {
+    color: #e3e3e3;
+    font-size: 24px;
+}
+
