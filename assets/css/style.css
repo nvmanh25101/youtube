@@ -354,6 +354,7 @@ html {
     left: 0;
     width: 100%;
     background-color: var(--white-color);
+    z-index: 1;
 }
 
 .header__search-history-list {
@@ -784,7 +785,8 @@ html {
 }
 
 .product-item__footer {
-    
+    /* margin-top: auto;
+    flex-shrink: 0; */
 }
 
 .product-item__name,
